@@ -1,7 +1,7 @@
 dependencies:
   override:
     - mvn -DskipTests clean install dependency:resolve-plugins dependency:go-offline
-    - mvn deploy:deploy-file -DgroupId=org.eclipse.mylyn.github -DartifactId=org.eclipse.egit.github.core -Dversion=3.1.0.201310021548-r -Dpackaging=jar  -Durl=http://repo.jfrog.org/artifactory/libs-releases/org/eclipse/mylyn/github/org.eclipse.egit.github.core/3.1.0.201310021548-r/ 
+   
 
 test:
   override:
